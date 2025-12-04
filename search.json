@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "projects_software.html",
+    "href": "projects_software.html",
+    "title": "Projects & Software",
+    "section": "",
+    "text": "Projects & Software\n\n\n\nGitHub stats\n\n\n\n\n\nProject\nStars\nStatus\nDescription\n\n\n\n\nFIMS\n\n\nFisheries Integrated Modelling System\n\n\nasar\n\n\nPartially Automated Stock Assessment Reporting\n\n\nstockplotr\n\n\nTables and figures for stock assessment documents\n\n\nss3-source-code\n\n\nStock Synthesis source code\n\n\nDisMAP\n\n\nDistribution Mapping and Analysis Portal\n\n\nFIT\n\n\nFisheries Integrated Toolbox\n\n\njournals\n\n\nBibliography files for journals of interest to fisheries\n\n\nnmfspalette\n\n\nR Color palette for NOAA Fisheries official colors"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NOAA Fisheries OST Onboarding and Offboarding",
+    "section": "",
+    "text": "This repository stores information about onboarding and offboarding collaborators to projects within NOAA Fisheries Office of Science and Technology (OST). This README describes the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "NOAA Fisheries OST Onboarding and Offboarding",
+    "section": "👋 Welcome",
+    "text": "👋 Welcome\nWe are happy for you to join onto our team in NOAA! Here at OST, we take on a large breadth of responsibilities. We aim to execute modern and high-quality data collection, management, and open access programs. For more information, please go to our internal webpage to access resources, organization charts, and more.\nSee the next section on Getting Started for how to join or add someone to one of these projects."
+  }
+]
