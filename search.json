@@ -1,23 +1,86 @@
 [
   {
-    "objectID": "projects_software.html",
-    "href": "projects_software.html",
-    "title": "Projects & Software",
+    "objectID": "st4-people.html",
+    "href": "st4-people.html",
+    "title": "ST4 People",
     "section": "",
-    "text": "Projects & Software\n\n\n\nGitHub stats\n\n\n\n\n\nProject\nStars\nStatus\nDescription\n\n\n\n\nFIMS\n\n\nFisheries Integrated Modelling System\n\n\nasar\n\n\nPartially Automated Stock Assessment Reporting\n\n\nstockplotr\n\n\nTables and figures for stock assessment documents\n\n\nss3-source-code\n\n\nStock Synthesis source code\n\n\nDisMAP\n\n\nDistribution Mapping and Analysis Portal\n\n\nFIT\n\n\nFisheries Integrated Toolbox\n\n\njournals\n\n\nBibliography files for journals of interest to fisheries\n\n\nnmfspalette\n\n\nR Color palette for NOAA Fisheries official colors"
+    "text": "Melissa Karp\n\n\n\n\n\nProject Contact  Kelli Johnson\n\n\n\n\nAndrea Havron\n\n\nBai Li\n\n\nMatthew Supernaw\n\n\nAdrianne Wilson\n\n\n\n\n\n\nProject Contact  Sam Schiano\n\n Sophie Brietbart\n\n\n\nProject Contact  Melissa Karp\n\n\n\nProject Contact  Jeff Vieser\n\n\n\nProject Contact  Kathryn Doering\n\n\n\nProject Contact  Elizabeth Perl\n\n\n\n\n\n\n\nJoel Rice\n\n\nAndrea Chan\n\n\nAbigail Furnish"
+  },
+  {
+    "objectID": "st4-people.html#director",
+    "href": "st4-people.html#director",
+    "title": "ST4 People",
+    "section": "",
+    "text": "Melissa Karp"
+  },
+  {
+    "objectID": "st4-people.html#projects",
+    "href": "st4-people.html#projects",
+    "title": "ST4 People",
+    "section": "",
+    "text": "Project Contact  Kelli Johnson\n\n\n\n\nAndrea Havron\n\n\nBai Li\n\n\nMatthew Supernaw\n\n\nAdrianne Wilson\n\n\n\n\n\n\nProject Contact  Sam Schiano\n\n Sophie Brietbart\n\n\n\nProject Contact  Melissa Karp\n\n\n\nProject Contact  Jeff Vieser\n\n\n\nProject Contact  Kathryn Doering\n\n\n\nProject Contact  Elizabeth Perl\n\n\n\n\n\n\n\nJoel Rice\n\n\nAndrea Chan\n\n\nAbigail Furnish"
+  },
+  {
+    "objectID": "st4-people.html#director-1",
+    "href": "st4-people.html#director-1",
+    "title": "ST4 People",
+    "section": "Director",
+    "text": "Director\nElizabeth Chilton"
+  },
+  {
+    "objectID": "st4-people.html#people-and-projects",
+    "href": "st4-people.html#people-and-projects",
+    "title": "ST4 People",
+    "section": "People and Projects",
+    "text": "People and Projects\nBrett Alger - Electronic Technologies Coordinator, National Observer Program Derek Bolser - National Fishery-Independent Survey Science Coordinator Mark Chandler - National Coordinator of NOAA Fisheries’ National Cooperative Research Program Jihong Dai - InPort Data Matthew Dunlap - National Environmental Compliance Coordinator Jason Gedamke - ? Kenneth Keene - National Observer Program Coordinator Matthew Lettrich - ? Holly Mcbride - Electronic Technologies Coordinator Erin McMichael - ?"
+  },
+  {
+    "objectID": "getting-started.html",
+    "href": "getting-started.html",
+    "title": "Getting Started",
+    "section": "",
+    "text": "---\nconfig:\n  theme: default\n---\n\nflowchart TD;\n    A([\"Navigate to Issues\"]) --- A0((\"Branch Director\")) & A1((\"New Employee\")) & PL((\"Project Lead\"));\n    A0 --&gt; B([\"Create a new Issue using 'Onboard Team Member' issue type\"]);\n    A1 ----&gt; G[\"Read through [Getting Started nstructions](getting-started.qmd)\"];\n    B --&gt; C([\"Follow instructions in the Issue\"]);\n    C --&gt; E[\"Assign Issue to Onboardee\"];\n    PL --&gt; D[\"Add project specific command (e.g., comment /onboard-FIMS)\"];\n    G --&gt; new(\"Navigate to your Onboarding Issue and complete onboarding tasks or comment on the issue to get help when you reach roadblocks\");\n    new --&gt; F[\"Close Issue after tasks are completed\"];\n    E ---&gt; H[\"Direct employee to this README\"];\n\n    E@{ shape: lin-rect};\n    D@{ shape: lin-rect};\n    F@{ shape: dbl-circ};\n    H@{ shape: div-rect};\n    style A fill:transparent;\n    style A0 fill:#BBDEFB;\n    style A1 fill:#C8E6C9;\n    style PL fille:#F54927,fill:#E1BEE7,color:none;\n    style B fill:#BBDEFB;\n    style G fill:#C8E6C9;\n    style C fill:#BBDEFB;\n    style E fill:#FFE0B2;\n    style D fill:#E1BEE7;\n    style new fill:#C8E6C9;\n    style F fill:#D50000;\n    style H fill:#FFCDD2;\n    click A \"https://github.com/nmfs-ost/on-off-boarding/issues\";"
+  },
+  {
+    "objectID": "getting-started.html#projects",
+    "href": "getting-started.html#projects",
+    "title": "Getting Started",
+    "section": "Projects",
+    "text": "Projects\n\n\n\n\n\n\nNote\n\n\n\nOnly projects that are associated with a GitHub repository are listed in the table below. There is an additional list of projects on the home page which includes projects that don’t have associated GitHub repositories.\n\n\n\n\n\nGitHub stats\n\n\n\n\n\nProject\nStars\nStatus\nDescription\n\n\n\n\nFIMS\n\n\nFisheries Integrated Modelling System\n\n\nasar\n\n\nPartially Automated Stock Assessment Reporting\n\n\nstockplotr\n\n\nTables and figures for stock assessment documents\n\n\nss3-source-code\n\n\nStock Synthesis source code\n\n\nDisMAP\n\n\nDistribution Mapping and Analysis Portal\n\n\nFIT\n\n\nFisheries Integrated Toolbox\n\n\njournals\n\n\nBibliography files for journals of interest to fisheries\n\n\nnmfspalette\n\n\nR Color palette for NOAA Fisheries official colors"
+  },
+  {
+    "objectID": "getting-started.html#software-and-tools",
+    "href": "getting-started.html#software-and-tools",
+    "title": "Getting Started",
+    "section": "💻 Software and Tools",
+    "text": "💻 Software and Tools"
+  },
+  {
+    "objectID": "getting-started.html#ai-resources-at-noaa-fisheries",
+    "href": "getting-started.html#ai-resources-at-noaa-fisheries",
+    "title": "Getting Started",
+    "section": "💬 AI Resources at NOAA Fisheries",
+    "text": "💬 AI Resources at NOAA Fisheries\n \n\n\n\n\n\n\nImportant\n\n\n\nAI tools are currently under pilot use and only some users have access to GitHub copilot."
+  },
+  {
+    "objectID": "getting-started.html#cloud-computing-resources-at-noaa-fisheries",
+    "href": "getting-started.html#cloud-computing-resources-at-noaa-fisheries",
+    "title": "Getting Started",
+    "section": "Cloud Computing Resources at NOAA Fisheries",
+    "text": "Cloud Computing Resources at NOAA Fisheries"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "NOAA Fisheries OST Onboarding and Offboarding",
     "section": "",
-    "text": "This repository stores information about onboarding and offboarding collaborators to projects within NOAA Fisheries Office of Science and Technology (OST). This README describes the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency."
+    "text": "This website contains information about onboarding and offboarding employees and collaborators to projects within NOAA Fisheries Office of Science and Technology (OST).\nContinue below for the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency."
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
     "title": "NOAA Fisheries OST Onboarding and Offboarding",
     "section": "👋 Welcome",
-    "text": "👋 Welcome\nWe are happy for you to join onto our team in NOAA! Here at OST, we take on a large breadth of responsibilities. We aim to execute modern and high-quality data collection, management, and open access programs. For more information, please go to our internal webpage to access resources, organization charts, and more.\nSee the next section on Getting Started for how to join or add someone to one of these projects."
+    "text": "👋 Welcome\nWe are happy for you to join onto our team in NOAA! Here at OST, we take on a large breadth of responsibilities. We aim to execute modern and high-quality data collection, management, and open access programs. For more information, please go to our internal webpage to access resources, organization charts, and more.\n\nProjects\nIn ST4, we work on the following projects:\n\n\nNational Stock Assessment Program\n\n\nFisheris Integrated Modeling System (FIMS)\nStock Assessment Workflows (asar, stockplotr)\nFisheries Integrated Toolbox (FIT)\nDisMAP\nStock Information System (SIS)\nStock Synthesis 3 (SS3)\nEcosystem and Socioeconomic Indicators\nHuman Dimension in Stock Assessments\n\n\nMonitoring\n\n\nNational Survey Program\nNational Fishery Observer Program\nBycatch Monitoring\nCooperative Research\n\n\n\n\n\nHow to Get Started\n\n\n\n\n\n\n\nOnboarding\n\n\n\n\n\n\n\n\n\nProjects and Software\n\n\n\n\n\n\n\n\n\nST4 People\n\n\n\n\n\nNo matching items"
   }
 ]

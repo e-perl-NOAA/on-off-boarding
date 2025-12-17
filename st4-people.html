@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>NOAA Fisheries OST Onboarding and Offboarding</title>
+<title>ST4 People – NOAA Fisheries OST Onboarding and Offboarding</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/noaa-logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -73,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-getting-started .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-getting-started'] = new List('listing-getting-started', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 <script>
@@ -112,43 +81,13 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="assets/panelset-extras.css">
-<meta property="og:title" content="NOAA Fisheries OST Onboarding and Offboarding">
-<meta property="og:description" content="">
+<meta property="og:title" content="ST4 People – NOAA Fisheries OST Onboarding and Offboarding">
 <meta property="og:site_name" content="NOAA Fisheries OST Onboarding and Offboarding">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -328,7 +267,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
@@ -364,90 +303,113 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
 
-
-
-
-<p>This website contains information about onboarding and offboarding employees and collaborators to projects within NOAA Fisheries Office of Science and Technology (OST).</p>
-<p>Continue below for the process that a branch director and onboarded/offboarded employee should follow to successfully integrate or leave the agency.</p>
-<section id="welcome" class="level2">
-<h2 class="anchored" data-anchor-id="welcome">👋 Welcome</h2>
-<p>We are happy for you to join onto our team in NOAA! Here at OST, we take on a large breadth of responsibilities. We aim to execute modern and high-quality data collection, management, and open access programs. For more information, please go to our <a href="https://sites.google.com/noaa.gov/inside-fisheries-ost/office-of-science-and-technology">internal webpage</a> to access resources, organization charts, and more.</p>
-<section id="projects" class="level3">
-<h3 class="anchored" data-anchor-id="projects">Projects</h3>
-<p>In ST4, we work on the following projects:</p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><strong>National Stock Assessment Program</strong></p>
-<hr>
-<ul>
-<li>Fisheris Integrated Modeling System (FIMS)</li>
-<li>Stock Assessment Workflows (asar, stockplotr)</li>
-<li>Fisheries Integrated Toolbox (FIT)</li>
-<li>DisMAP</li>
-<li>Stock Information System (SIS)</li>
-<li>Stock Synthesis 3 (SS3)</li>
-<li>Ecosystem and Socioeconomic Indicators</li>
-<li>Human Dimension in Stock Assessments</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<p><strong>Monitoring</strong></p>
-<hr>
-<ul>
-<li>National Survey Program</li>
-<li>National Fishery Observer Program</li>
-<li>Bycatch Monitoring</li>
-<li>Cooperative Research</li>
-</ul>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">ST4 People</h1>
 </div>
-</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="national-stock-assessment-program-nsap" class="level1">
+<h1>🎏 National Stock Assessment Program (NSAP)</h1>
+<section id="director" class="level2">
+<h2 class="anchored" data-anchor-id="director">Director</h2>
+<p><a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""> Melissa Karp</a></p><a href="https://github.com/Melissa-Karp">
+</a></section><a href="https://github.com/Melissa-Karp">
+</a><section id="projects" class="level2"><a href="https://github.com/Melissa-Karp">
+<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+</a><section id="fims" class="level3"><a href="https://github.com/Melissa-Karp">
+<h3 class="anchored" data-anchor-id="fims">FIMS</h3>
+</a><p><a href="https://github.com/Melissa-Karp"><strong>Project Contact</strong> </a><a href="https://github.com/kellijohnson-NOAA"><img src="https://avatars.githubusercontent.com/u/4108564?v=4" width="100px;" alt=""> Kelli Johnson</a></p><a href="https://github.com/kellijohnson-NOAA">
+<hr>
+<table>
+<tbody><tr>
+<td align="center" valign="top" style="padding:12px">
+<a href="https://github.com/Andrea-Havron-NOAA"><img src="https://avatars.githubusercontent.com/u/85530309?v=4" width="100" alt="Andrea-Havron-NOAA" style="border-radius:8px"><br><sub>Andrea Havron</sub></a>
+</td>
+<td align="center" valign="top" style="padding:12px">
+<a href="https://github.com/Bai-Li-NOAA"><img src="https://avatars.githubusercontent.com/u/59936250?v=4" width="100" alt="Bai-Li-NOAA" style="border-radius:8px"><br><sub>Bai Li</sub></a>
+</td>
+<td align="center" valign="top" style="padding:12px">
+<a href="https://github.com/msupernaw"><img src="https://avatars.githubusercontent.com/u/4933904?v=4" width="100" alt="msupernaw" style="border-radius:8px"><br><sub>Matthew Supernaw</sub></a>
+</td>
+<td align="center" valign="top" style="padding:12px">
+<a href="https://github.com/awilnoaa"><img src="https://avatars.githubusercontent.com/u/225041363?v=4" width="100" alt="awilnoaa" style="border-radius:8px"><br><sub>Adrianne Wilson</sub></a>
+</td>
+</tr>
+</tbody></table>
+</a></section><a href="https://github.com/kellijohnson-NOAA">
+</a><section id="workflows" class="level3"><a href="https://github.com/kellijohnson-NOAA">
+<h3 class="anchored" data-anchor-id="workflows">Workflows</h3>
+</a><p><a href="https://github.com/kellijohnson-NOAA"><strong>Project Contact</strong> </a><a href="https://github.com/Schiano-NOAA"><img src="https://avatars.githubusercontent.com/u/125507018?u=b6dab08f04000188734eb3bbf78a40616e99b921&amp;v=4" width="100px;" alt=""> Sam Schiano</a></p><a href="https://github.com/Schiano-NOAA">
+<hr>
+</a><p><a href="https://github.com/Schiano-NOAA"></a><a href="https://github.com/sbreitbart-NOAA"><img src="https://avatars.githubusercontent.com/u/181890943?v=4" width="100px;" alt=""> Sophie Brietbart</a></p><a href="https://github.com/sbreitbart-NOAA">
+</a></section><a href="https://github.com/sbreitbart-NOAA">
+</a><section id="dismap" class="level3"><a href="https://github.com/sbreitbart-NOAA">
+<h3 class="anchored" data-anchor-id="dismap">DisMap</h3>
+</a><p><a href="https://github.com/sbreitbart-NOAA"><strong>Project Contact</strong> </a><a href="https://github.com/Melissa-Karp"><img src="https://avatars.githubusercontent.com/u/61592412?v=4" width="100px;" alt=""> Melissa Karp</a></p><a href="https://github.com/Melissa-Karp">
+</a></section><a href="https://github.com/Melissa-Karp">
+</a><section id="sis" class="level3"><a href="https://github.com/Melissa-Karp">
+<h3 class="anchored" data-anchor-id="sis">SIS</h3>
+</a><p><a href="https://github.com/Melissa-Karp"><strong>Project Contact</strong> </a><a href="https://github.com/orgs/nmfs-ost/teams/nsap"><img src="https://avatars.githubusercontent.com/t/9092421?s=116&amp;v=4" width="100px;" alt=""> Jeff Vieser</a></p><a href="https://github.com/orgs/nmfs-ost/teams/nsap">
+</a></section><a href="https://github.com/orgs/nmfs-ost/teams/nsap">
+</a><section id="fit" class="level3"><a href="https://github.com/orgs/nmfs-ost/teams/nsap">
+<h3 class="anchored" data-anchor-id="fit">FIT</h3>
+</a><p><a href="https://github.com/orgs/nmfs-ost/teams/nsap"><strong>Project Contact</strong> </a><a href="https://github.com/k-doering-NOAA"><img src="https://avatars.githubusercontent.com/u/48930335?v=4" width="100px;" alt=""> Kathryn Doering</a></p><a href="https://github.com/k-doering-NOAA">
+</a></section><a href="https://github.com/k-doering-NOAA">
+</a><section id="ss3" class="level3"><a href="https://github.com/k-doering-NOAA">
+<h3 class="anchored" data-anchor-id="ss3">SS3</h3>
+</a><p><a href="https://github.com/k-doering-NOAA"><strong>Project Contact</strong> </a><a href="https://github.com/e-perl-NOAA"><img src="https://avatars.githubusercontent.com/u/118312785?v=4" width="100px;" alt=""> Elizabeth Perl</a></p><a href="https://github.com/e-perl-NOAA">
+</a></section><a href="https://github.com/e-perl-NOAA">
+<section id="other-team-members" class="level3">
+<h3 class="anchored" data-anchor-id="other-team-members">Other team members</h3>
+<table>
+<tbody><tr>
+<td align="center" valign="top" style="padding:12px">
+</td><td align="center" valign="top" style="padding:12px">
+<a href="https://github.com/JoelRice-NOAA"><img src="https://avatars.githubusercontent.com/u/225041363?v=4" width="100" alt="JoelRice-NOAA" style="border-radius:8px"><br><sub>Joel Rice</sub></a>
+</td>
+<td align="center" valign="top" style="padding:12px">
+<a href="https://github.com/AndreaChan-NOAA"><img src="https://avatars.githubusercontent.com/u/85881950?v=4" width="100" alt="AndreaChan-NOAA" style="border-radius:8px"><br><sub>Andrea Chan</sub></a>
+</td>
+<td align="center" valign="top" style="padding:12px">
+<a href="https://github.com/orgs/nmfs-ost/teams/nsap"><img src="https://avatars.githubusercontent.com/t/9092421?s=116&amp;v=4" width="100" alt="Abigail Furnish" style="border-radius:8px"><br><sub>Abigail Furnish</sub></a>
+</td>
+</tr>
+</tbody></table>
 </section>
-<section id="how-to-get-started" class="level3">
-<h3 class="anchored" data-anchor-id="how-to-get-started">How to Get Started</h3>
-<div id="listing-getting-started" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0">
-<a href="./getting-started.html#-onboarding" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Onboarding
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1">
-<a href="./getting-started.html#-projects-and-software" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Projects and Software
-</h5>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1765994080819" data-listing-reading-time-sort="1" data-listing-word-count-sort="192">
-<a href="./st4-people.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ST4 People
-</h5>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
-
+</a></section><a href="https://github.com/e-perl-NOAA">
+</a></section><a href="https://github.com/e-perl-NOAA">
+</a><section id="monitoring-branch" class="level1"><a href="https://github.com/e-perl-NOAA">
+<h1>Monitoring Branch</h1>
+<section id="director-1" class="level2">
+<h2 class="anchored" data-anchor-id="director-1">Director</h2>
+<p>Elizabeth Chilton</p>
+</section>
+</a><section id="people-and-projects" class="level2"><a href="https://github.com/e-perl-NOAA">
+<h2 class="anchored" data-anchor-id="people-and-projects">People and Projects</h2>
+<p>Brett Alger - Electronic Technologies Coordinator, National Observer Program Derek Bolser - National Fishery-Independent Survey Science Coordinator Mark Chandler - National Coordinator of NOAA Fisheries’ National Cooperative Research Program Jihong Dai - InPort Data Matthew Dunlap - National Environmental Compliance Coordinator Jason Gedamke - ? Kenneth Keene - National Observer Program Coordinator Matthew Lettrich - ? Holly Mcbride - Electronic Technologies Coordinator Erin McMichael - ?</p>
+</a>
 
 </section>
 </section>
@@ -887,8 +849,8 @@ document.addEventListener("DOMContentLoaded", function() {
     <div class="nav-footer-center">
       &nbsp;
     </div>
-    <div class="nav-footer-right">
-<p><a class="link-dark" href="https://github.com/nmfs-ost/on-off-boarding" title="github" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></p>
+    <div class="nav-footer-right"><a href="https://github.com/e-perl-NOAA">
+</a><p><a href="https://github.com/e-perl-NOAA"></a><a class="link-dark" href="https://github.com/nmfs-ost/on-off-boarding" title="github" target="_blank" rel="noopener"><i class="fab fa-github"></i></a></p>
 </div>
   </div>
 </footer>
