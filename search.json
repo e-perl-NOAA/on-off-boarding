@@ -4,7 +4,7 @@
     "href": "st4-people.html",
     "title": "ST4 People",
     "section": "",
-    "text": "Melissa Karp\n\n\n\n\n\nProject Contact\n Kelli Johnson\n\n\n\n\nAndrea Havron\n\n\nBai Li\n\n\nMatthew Supernaw\n\n\nAdrianne Wilson\n\n\n\n\n\n\n\nProject Contact\n Sam Schiano\n\n Sophie Brietbart\n\n\n\nProject Contact\n Melissa Karp\n\n\n\nProject Contact\n Jeff Vieser\n\n\n\nProject Contact\n Kathryn Doering\n\n\n\nProject Contact\n Elizabeth Perl\n\n\n\n\n\n\n\nJoel Rice\n\n\nAndrea Chan\n\n\nAbigail Furnish"
+    "text": "Melissa Karp\n\n\n\n\n\nProject Contact\n   Kelli Johnson\n\n\n\n\nAndrea Havron\n\n\nBai Li\n\n\nMatthew Supernaw\n\n\nAdrianne Wilson\n\n\n\n\n\n\n\nProject Contact\n   Sam Schiano\n\n  Sophie Brietbart\n\n\n\nProject Contact\n   Melissa Karp\n\n\n\nProject Contact\n   Jeff Vieser\n\n\n\nProject Contact\n    Kathryn Doering\n\n\n\nProject Contact\n   Elizabeth Perl\n\n\n\n\n\n\n\n\nJoel Rice\n\n\nAndrea Chan\n\n\nAbigail Furnish"
   },
   {
     "objectID": "st4-people.html#director",
@@ -18,7 +18,7 @@
     "href": "st4-people.html#projects",
     "title": "ST4 People",
     "section": "",
-    "text": "Project Contact\n Kelli Johnson\n\n\n\n\nAndrea Havron\n\n\nBai Li\n\n\nMatthew Supernaw\n\n\nAdrianne Wilson\n\n\n\n\n\n\n\nProject Contact\n Sam Schiano\n\n Sophie Brietbart\n\n\n\nProject Contact\n Melissa Karp\n\n\n\nProject Contact\n Jeff Vieser\n\n\n\nProject Contact\n Kathryn Doering\n\n\n\nProject Contact\n Elizabeth Perl\n\n\n\n\n\n\n\nJoel Rice\n\n\nAndrea Chan\n\n\nAbigail Furnish"
+    "text": "Project Contact\n   Kelli Johnson\n\n\n\n\nAndrea Havron\n\n\nBai Li\n\n\nMatthew Supernaw\n\n\nAdrianne Wilson\n\n\n\n\n\n\n\nProject Contact\n   Sam Schiano\n\n  Sophie Brietbart\n\n\n\nProject Contact\n   Melissa Karp\n\n\n\nProject Contact\n   Jeff Vieser\n\n\n\nProject Contact\n    Kathryn Doering\n\n\n\nProject Contact\n   Elizabeth Perl\n\n\n\n\n\n\n\n\nJoel Rice\n\n\nAndrea Chan\n\n\nAbigail Furnish"
   },
   {
     "objectID": "st4-people.html#director-1",
@@ -39,7 +39,7 @@
     "href": "getting-started.html",
     "title": "Getting Started",
     "section": "",
-    "text": "flowchart TD;\n    A([\"Navigate to Issues\"]) --- A0((\"Branch Director\")) & A1((\"New Employee\")) & PL((\"Project Lead\"));\n    A0 --&gt; B([\"Create a new Issue using 'Onboard Team Member' issue type\"]);\n    A1 ----&gt; G[\"Read through Getting Started Instructions\"];\n    B --&gt; C([\"Follow instructions in the Issue\"]);\n    C --&gt; E[\"Assign Issue to Onboardee\"];\n    PL --&gt; D[\"Add project specific command (e.g., comment /onboard-FIMS)\"];\n    G --&gt; new(\"Navigate to your Onboarding Issue and complete onboarding tasks or comment on the issue to get help when you reach roadblocks\");\n    new --&gt; F[\"Close Issue after tasks are completed\"];\n    E ---&gt; H[\"Direct employee to this README\"];\n\n    E@{ shape: lin-rect};\n    D@{ shape: lin-rect};\n    F@{ shape: dbl-circ};\n    H@{ shape: div-rect};\n    style A fill:transparent;\n    style A0 fill:#BBDEFB;\n    style A1 fill:#C8E6C9;\n    style PL fille:#F54927,fill:#E1BEE7,color:none;\n    style B fill:#BBDEFB;\n    style G fill:#C8E6C9;\n    style C fill:#BBDEFB;\n    style E fill:#FFE0B2;\n    style D fill:#E1BEE7;\n    style new fill:#C8E6C9;\n    style F fill:#D50000;\n    style H fill:#FFCDD2;\n    click A \"https://github.com/nmfs-ost/on-off-boarding/issues\";\n    click G \"/getting-started.qmd\";\n\n\n\n\n\n\n\n\nA list of ST4 branches, team members, and which projects team members are involved in.\n\n\n\n\n\nNo matching items"
+    "text": "flowchart TD;\n    A([\"Navigate to Issues\"]) --- A0((\"Branch Director\")) & A1((\"New Employee\")) & PL((\"Project Lead\"));\n    A0 --&gt; B([\"Create a new Issue using 'Onboard Team Member' issue type\"]);\n    A1 ----&gt; G[\"Read through Getting Started Instructions\"];\n    B --&gt; C([\"Follow instructions in the Issue\"]);\n    C --&gt; E[\"Assign Issue to Onboardee\"];\n    PL --&gt; D[\"Add project specific command (e.g., comment /onboard-FIMS)\"];\n    G --&gt; new(\"Navigate to your Onboarding Issue and complete onboarding tasks or comment on the issue to get help when you reach roadblocks\");\n    new --&gt; F[\"Close Issue after tasks are completed\"];\n    E ---&gt; H[\"Direct employee to this README\"];\n\n    E@{ shape: lin-rect};\n    D@{ shape: lin-rect};\n    F@{ shape: dbl-circ};\n    H@{ shape: div-rect};\n    style A fill:transparent;\n    style A0 fill:#BBDEFB;\n    style A1 fill:#C8E6C9;\n    style PL fill:#F54927,fill:#E1BEE7,color:none;\n    style B fill:#BBDEFB;\n    style G fill:#C8E6C9;\n    style C fill:#BBDEFB;\n    style E fill:#FFE0B2;\n    style D fill:#E1BEE7;\n    style new fill:#C8E6C9;\n    style F fill:#D50000;\n    style H fill:#FFCDD2;\n    click A \"https://github.com/nmfs-ost/on-off-boarding/issues\";\n    click G \"/getting-started.qmd\";\n\n\n\n\n\n\n\n\nA list of ST4 branches, team members, and which projects team members are involved in.\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "getting-started.html#projects",
