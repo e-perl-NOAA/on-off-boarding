@@ -45,8 +45,8 @@
     "objectID": "getting-started.html#projects",
     "href": "getting-started.html#projects",
     "title": "Getting Started",
-    "section": "Projects",
-    "text": "Projects\n\n\n\n\n\n\nNote\n\n\n\nOnly projects that are associated with a GitHub repository are listed in the table below. There is an additional list of projects on the home page which includes projects that don’t have associated GitHub repositories.\n\n\n\n\n\nGitHub stats\n\n\n\n\n\nProject\nStars\nStatus\nDescription\n\n\n\n\nFIMS\n\n\nFisheries Integrated Modelling System\n\n\nasar\n\n\nPartially Automated Stock Assessment Reporting\n\n\nstockplotr\n\n\nTables and figures for stock assessment documents\n\n\nss3-source-code\n\n\nStock Synthesis source code\n\n\nDisMAP\n\n\nDistribution Mapping and Analysis Portal\n\n\nFIT\n\n\nFisheries Integrated Toolbox\n\n\njournals\n\n\nBibliography files for journals of interest to fisheries\n\n\nnmfspalette\n\n\nR Color palette for NOAA Fisheries official colors"
+    "section": "🗂️ Projects",
+    "text": "🗂️ Projects\n\n\n\n\n\n\nNote\n\n\n\nOnly projects that are associated with a GitHub repository are listed in the table below. There is an additional list of projects on the home page which includes projects that don’t have associated GitHub repositories.\n\n\n\n\n\nGitHub stats\n\n\n\n\n\nProject\nStars\nStatus\nDescription\n\n\n\n\nFIMS\n\n\nFisheries Integrated Modelling System\n\n\nasar\n\n\nPartially Automated Stock Assessment Reporting\n\n\nstockplotr\n\n\nTables and figures for stock assessment documents\n\n\nss3-source-code\n\n\nStock Synthesis source code\n\n\nDisMAP\n\n\nDistribution Mapping and Analysis Portal\n\n\nFIT\n\n\nFisheries Integrated Toolbox\n\n\njournals\n\n\nBibliography files for journals of interest to fisheries\n\n\nnmfspalette\n\n\nR Color palette for NOAA Fisheries official colors"
   },
   {
     "objectID": "getting-started.html#software-and-tools",
@@ -66,8 +66,8 @@
     "objectID": "getting-started.html#cloud-computing-resources-at-noaa-fisheries",
     "href": "getting-started.html#cloud-computing-resources-at-noaa-fisheries",
     "title": "Getting Started",
-    "section": "Cloud Computing Resources at NOAA Fisheries",
-    "text": "Cloud Computing Resources at NOAA Fisheries"
+    "section": "☁️ Cloud Computing Resources at NOAA Fisheries",
+    "text": "☁️ Cloud Computing Resources at NOAA Fisheries"
   },
   {
     "objectID": "index.html",
