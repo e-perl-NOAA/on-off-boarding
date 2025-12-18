@@ -102,6 +102,9 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 <script>
@@ -333,6 +336,10 @@ window.Quarto = {
 <span class="menu-text">home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="./getting-started.html" aria-current="page"> 
+<span class="menu-text">getting started</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./getting-started.html#projects-and-software"> 
 <span class="menu-text">projects &amp; software</span></a>
   </li>  
@@ -394,7 +401,12 @@ window.Quarto = {
 
 <section id="onboarding" class="level1">
 <h1>Onboarding</h1>
-<pre class="mermaid"><code>flowchart TD;
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD;
     A(["Navigate to Issues"]) --- A0(("Branch Director")) &amp; A1(("New Employee")) &amp; PL(("Project Lead"));
     A0 --&gt; B(["Create a new Issue using 'Onboard Team Member' issue type"]);
     A1 ----&gt; G["Read through Getting Started Instructions"];
@@ -422,10 +434,16 @@ window.Quarto = {
     style F fill:#D50000;
     style H fill:#FFCDD2;
     click A "https://github.com/nmfs-ost/on-off-boarding/issues";
-    click G "/getting-started.qmd";</code></pre>
+    click G "/getting-started.qmd";
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <div id="listing-people" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1766084450435" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1766085476773" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
 <a href="./st4-people.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
