@@ -404,6 +404,7 @@ window.Quarto = {
    
   <ul>
   <li><a href="#onboarding" id="toc-onboarding" class="nav-link active" data-scroll-target="#onboarding">Onboarding</a></li>
+  <li><a href="#offboarding" id="toc-offboarding" class="nav-link" data-scroll-target="#offboarding">Offboarding</a></li>
   <li><a href="#community" id="toc-community" class="nav-link" data-scroll-target="#community">👥 Community</a></li>
   <li><a href="#projects-and-software" id="toc-projects-and-software" class="nav-link" data-scroll-target="#projects-and-software">Projects and Software</a>
   <ul class="collapse">
@@ -474,6 +475,41 @@ window.Quarto = {
     style H fill:#FFCDD2;
     click A "https://github.com/nmfs-ost/on-off-boarding/issues";
     click G "/getting-started.qmd";
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="offboarding" class="level1">
+<h1>Offboarding</h1>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD;
+    A(["Navigate to Issues"]) --- A0(("Branch Director")) &amp; A1(("Employee"));
+    A0 --&gt; B(["Execute command for offboarding from team and project."]);
+    A1 ----&gt; G["Read through offboarding task list"];
+    B --&gt; E["Reassign Issue to offboardee"];
+    G --&gt; F["Check off each task after they are completed"];
+    E --&gt; H["Once employee is offboarded, close out their profile."]
+
+    E@{ shape: lin-rect};
+    D@{ shape: lin-rect};
+    F@{ shape: dbl-circ};
+    H@{ shape: div-rect};
+    style A fill:transparent;
+    style A0 fill:#BBDEFB;
+    style A1 fill:#C8E6C9;
+    style B fill:#BBDEFB;
+    style G fill:#C8E6C9;
+    style E fill:#FFE0B2;
+    style F fill:#D50000;
+    style H fill:#FFCDD2;
+    click A "https://github.com/nmfs-ost/on-off-boarding/issues";
 </pre>
 </div>
 <p></p></figure><p></p>
